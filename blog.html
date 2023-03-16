@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html data-theme="light" lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="lg:w-[95%] mx-auto">
+    <header>
+        <!-- Navbar -->
+        <div class="navbar bg-[#1090D81A]">
+            <div class="navbar-start">
+                <a href="index.html" class="normal-case text-left text-xl font-bold hover:bg-slate-400">Interactive<br><span class="font-thin">Geometry Genius</span></a>
+              </div>
+            
+            <div class="navbar-end">
+              <a href="blog.html" class="bg-[#1090D8] rounded-lg py-2 px-6 font-semibold text-white">Blog</a>
+            </div>
+          </div>
+    </header>
+    <main>
+        <section class="my-8">
+            <p class="font-semibold text-2xl text-center">#FQA's</p>
+            <div class="card bg-base-100 grid lg:grid-cols-3 gap-9">
+                
+                <div class="card  bg-base-100 shadow-xl">
+                    <div class="card-body">
+                      <h2 class="card-title">1.What is DOM and what is the purpose of DOM?</h2>
+                      <p>DOM means Document object model. It is used to manipulate Html. It gives us to access change to modify content and structure of webpage. <br> The purpose of DOM is provide a platform for programs to access and update the content and style of html. It enables interaction of the webpage.
+                      </p>
+                    </div>
+                  </div>
+
+                <div class="card  bg-base-100 shadow-xl">
+                    <div class="card-body">
+                      <h2 class="card-title">2.How will you select HTML elements using DOM? Name the DOM methods.</h2>
+                      <p>We can select html elements using dom by using DOM methods. here are common method for selecting element:
+                        <ol>
+                            <li>1. getElementById() : we can select elements by a specific ID.</li>
+                            <li>2. getElementsByClassName() : we can select elements by a specific class.</li>
+                            <li>3. getElementsByTagName(): we can select elements by a specific html tag name.</li>
+                            <li>4. querySelector() : Select the first element.</li>
+                            <li>5. querySelectorAll():  Selects all elements. It returns a node list.</li>
+                        </ol>
+                      </p>
+                    </div>
+                  </div>
+
+                <div class="card  bg-base-100 shadow-xl">
+                    <div class="card-body">
+                      <h2 class="card-title">3.What is event bubble?</h2>
+                      <p>Event bubbling is the process by which an event is received by an element, and then subsequently bubbles up through the DOM tree to be received by the ancestors of that element.</p>
+                    </div>
+                  </div>
+
+                <div class="card  bg-base-100 shadow-xl">
+                    <div class="card-body">
+                      <h2 class="card-title">1.What is a callback function and why will you use it?</h2>
+                      <p>A callback function is a function that is passed as an argument to another function and is executed after the parent function has completed its task. In JavaScript, callbacks are commonly used in event listeners. Using a callback function also allows for modular and reusable code. </p>
+                    </div>
+                  </div>
+              </div>
+        </section>
+    </main>
+</body>
+</html>
